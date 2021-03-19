@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmsync "github.com/tendermint/tendermint/libs/sync"
+	tmsync "github.com/klyed/tendermint/libs/sync"
 )
 
 func TestWaker(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"github.com/google/orderedcode"
 	dbm "github.com/tendermint/tm-db"
 
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/light/store"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	tmsync "github.com/klyed/tendermint/libs/sync"
+	"github.com/klyed/tendermint/light/store"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 const (

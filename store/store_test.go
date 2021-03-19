@@ -13,14 +13,14 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
-	"github.com/tendermint/tendermint/version"
+	cfg "github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/libs/log"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
+	tmtime "github.com/klyed/tendermint/types/time"
+	"github.com/klyed/tendermint/version"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

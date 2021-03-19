@@ -9,12 +9,12 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	tmstate "github.com/klyed/tendermint/proto/tendermint/state"
+	ctypes "github.com/klyed/tendermint/rpc/core/types"
+	rpctypes "github.com/klyed/tendermint/rpc/jsonrpc/types"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
 )
 
 func TestBlockchainInfo(t *testing.T) {

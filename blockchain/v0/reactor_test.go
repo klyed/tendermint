@@ -9,16 +9,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mempool/mock"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	cfg "github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/mempool/mock"
+	"github.com/klyed/tendermint/p2p"
+	bcproto "github.com/klyed/tendermint/proto/tendermint/blockchain"
+	"github.com/klyed/tendermint/proxy"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/store"
+	"github.com/klyed/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 
@@ -314,7 +314,7 @@ func TestReactor_NoBlockResponse(t *testing.T) {
 func TestReactor_BadBlockStopsPeer(t *testing.T) {
 	// Ultimately, this should be refactored to be less integration test oriented
 	// and more unit test oriented by simply testing channel sends and receives.
-	// See: https://github.com/tendermint/tendermint/issues/6005
+	// See: https://github.com/klyed/tendermint/issues/6005
 	t.SkipNow()
 
 	config := cfg.ResetTestRoot("blockchain_reactor_test")
@@ -372,7 +372,7 @@ func TestReactor_BadBlockStopsPeer(t *testing.T) {
 	// from this peer.
 	//
 	// XXX: This causes a potential race condition.
-	// See: https://github.com/tendermint/tendermint/issues/6005
+	// See: https://github.com/klyed/tendermint/issues/6005
 	otherGenDoc, otherPrivVals := randGenesisDoc(config, 1, false, 30)
 	otherSuite := setup(t, otherGenDoc, otherPrivVals, maxBlockHeight, 0)
 	testSuites[3].reactor.store = otherSuite.reactor.store

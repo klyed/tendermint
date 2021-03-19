@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
-	protop2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/libs/service"
+	"github.com/klyed/tendermint/p2p"
+	protop2p "github.com/klyed/tendermint/proto/tendermint/p2p"
 )
 
 var (

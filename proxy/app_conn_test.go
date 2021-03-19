@@ -6,12 +6,12 @@ import (
 	"strings"
 	"testing"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	abcicli "github.com/klyed/tendermint/abci/client"
+	"github.com/klyed/tendermint/abci/example/kvstore"
+	"github.com/klyed/tendermint/abci/server"
+	"github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/libs/log"
+	tmrand "github.com/klyed/tendermint/libs/rand"
 )
 
 //----------------------------------------

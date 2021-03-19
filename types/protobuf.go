@@ -1,8 +1,8 @@
 package types
 
 import (
-	abci "github.com/tendermint/tendermint/abci/types"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
+	abci "github.com/klyed/tendermint/abci/types"
+	cryptoenc "github.com/klyed/tendermint/crypto/encoding"
 )
 
 //-------------------------------------------------------

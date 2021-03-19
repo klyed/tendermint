@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	tmos "github.com/tendermint/tendermint/libs/os"
+	tmos "github.com/klyed/tendermint/libs/os"
 )
 
 func TestCopyFile(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/types"
 )
 
 // Mempool defines the mempool interface.

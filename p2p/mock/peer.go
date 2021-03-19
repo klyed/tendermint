@@ -3,9 +3,9 @@ package mock
 import (
 	"net"
 
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/klyed/tendermint/libs/service"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/p2p/conn"
 )
 
 type Peer struct {

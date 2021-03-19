@@ -10,9 +10,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/libs/service"
 )
 
 // ChannelID is an arbitrary channel ID.

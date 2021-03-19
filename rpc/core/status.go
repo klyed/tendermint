@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"time"
 
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/types"
+	tmbytes "github.com/klyed/tendermint/libs/bytes"
+	ctypes "github.com/klyed/tendermint/rpc/core/types"
+	rpctypes "github.com/klyed/tendermint/rpc/jsonrpc/types"
+	"github.com/klyed/tendermint/types"
 )
 
 // Status returns Tendermint status including node info, pubkey, latest block

@@ -410,7 +410,7 @@ type RPCConfig struct {
 	// How long to wait for a tx to be committed during /broadcast_tx_commit
 	// WARNING: Using a value larger than 10s will result in increasing the
 	// global HTTP write timeout, which applies to all connections and endpoints.
-	// See https://github.com/tendermint/tendermint/issues/3435
+	// See https://github.com/klyed/tendermint/issues/3435
 	TimeoutBroadcastTxCommit time.Duration `mapstructure:"timeout-broadcast-tx-commit"`
 
 	// Maximum size of request body, in bytes
@@ -695,7 +695,7 @@ type MempoolConfig struct {
 	MaxTxBytes int `mapstructure:"max-tx-bytes"`
 	// Maximum size of a batch of transactions to send to a peer
 	// Including space needed by encoding (one varint per transaction).
-	// XXX: Unused due to https://github.com/tendermint/tendermint/issues/5796
+	// XXX: Unused due to https://github.com/klyed/tendermint/issues/5796
 	MaxBatchBytes int `mapstructure:"max-batch-bytes"`
 }
 

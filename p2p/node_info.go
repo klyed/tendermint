@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	tmstrings "github.com/tendermint/tendermint/libs/strings"
-	tmp2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
-	"github.com/tendermint/tendermint/version"
+	"github.com/klyed/tendermint/libs/bytes"
+	tmstrings "github.com/klyed/tendermint/libs/strings"
+	tmp2p "github.com/klyed/tendermint/proto/tendermint/p2p"
+	"github.com/klyed/tendermint/version"
 )
 
 const (

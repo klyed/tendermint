@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmnet "github.com/tendermint/tendermint/libs/net"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	"github.com/klyed/tendermint/libs/log"
+	tmnet "github.com/klyed/tendermint/libs/net"
+	tmrand "github.com/klyed/tendermint/libs/rand"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/p2p/conn"
 )
 
 const testCh = 0x01

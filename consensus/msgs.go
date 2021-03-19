@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	cstypes "github.com/klyed/tendermint/consensus/types"
+	"github.com/klyed/tendermint/libs/bits"
+	tmjson "github.com/klyed/tendermint/libs/json"
+	tmmath "github.com/klyed/tendermint/libs/math"
+	"github.com/klyed/tendermint/p2p"
+	tmcons "github.com/klyed/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 // Message defines an interface that the consensus domain types implement. When

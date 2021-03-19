@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
-	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/crypto/ed25519"
+	"github.com/klyed/tendermint/crypto/secp256k1"
+	rpchttp "github.com/klyed/tendermint/rpc/client/http"
+	"github.com/klyed/tendermint/types"
 )
 
 const (

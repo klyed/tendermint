@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	cryptoproto "github.com/tendermint/tendermint/proto/tendermint/crypto"
-	privvalproto "github.com/tendermint/tendermint/proto/tendermint/privval"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/crypto"
+	cryptoenc "github.com/klyed/tendermint/crypto/encoding"
+	cryptoproto "github.com/klyed/tendermint/proto/tendermint/crypto"
+	privvalproto "github.com/klyed/tendermint/proto/tendermint/privval"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 func DefaultValidationRequestHandler(

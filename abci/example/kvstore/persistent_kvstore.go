@@ -9,11 +9,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/types"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	"github.com/tendermint/tendermint/libs/log"
-	pc "github.com/tendermint/tendermint/proto/tendermint/crypto"
+	"github.com/klyed/tendermint/abci/example/code"
+	"github.com/klyed/tendermint/abci/types"
+	cryptoenc "github.com/klyed/tendermint/crypto/encoding"
+	"github.com/klyed/tendermint/libs/log"
+	pc "github.com/klyed/tendermint/proto/tendermint/crypto"
 )
 
 const (

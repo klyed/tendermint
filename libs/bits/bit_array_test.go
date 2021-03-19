@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmprotobits "github.com/tendermint/tendermint/proto/tendermint/libs/bits"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	tmprotobits "github.com/klyed/tendermint/proto/tendermint/libs/bits"
 )
 
 func randBitArray(bits int) (*BitArray, []byte) {

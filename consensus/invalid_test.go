@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/bytes"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/libs/bytes"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	"github.com/klyed/tendermint/p2p"
+	tmcons "github.com/klyed/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 func TestReactorInvalidPrecommit(t *testing.T) {

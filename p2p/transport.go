@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/p2p/conn"
 )
 
 //go:generate mockery --case underscore --name Transport|Connection

@@ -7,10 +7,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/libs/log"
+	tmsync "github.com/klyed/tendermint/libs/sync"
+	"github.com/klyed/tendermint/p2p/conn"
 )
 
 const (

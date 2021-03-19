@@ -86,5 +86,5 @@ Proposed
 
 [Ed25519 Library](https://github.com/hdevalence/ed25519consensus)
 [Ed25519 spec](https://ed25519.cr.yp.to/)
-[Signature Aggregation for votes](https://github.com/tendermint/tendermint/issues/1319)
-[Proposer-based timestamps](https://github.com/tendermint/tendermint/issues/2840)
+[Signature Aggregation for votes](https://github.com/klyed/tendermint/issues/1319)
+[Proposer-based timestamps](https://github.com/klyed/tendermint/issues/2840)

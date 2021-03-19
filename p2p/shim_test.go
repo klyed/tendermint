@@ -7,11 +7,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	p2pmocks "github.com/tendermint/tendermint/p2p/mocks"
-	ssproto "github.com/tendermint/tendermint/proto/tendermint/statesync"
+	"github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/p2p"
+	p2pmocks "github.com/klyed/tendermint/p2p/mocks"
+	ssproto "github.com/klyed/tendermint/proto/tendermint/statesync"
 )
 
 var (

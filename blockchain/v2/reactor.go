@@ -7,14 +7,14 @@ import (
 
 	proto "github.com/gogo/protobuf/proto"
 
-	bc "github.com/tendermint/tendermint/blockchain"
-	"github.com/tendermint/tendermint/blockchain/v2/internal/behavior"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	bc "github.com/klyed/tendermint/blockchain"
+	"github.com/klyed/tendermint/blockchain/v2/internal/behavior"
+	"github.com/klyed/tendermint/libs/log"
+	tmsync "github.com/klyed/tendermint/libs/sync"
+	"github.com/klyed/tendermint/p2p"
+	bcproto "github.com/klyed/tendermint/proto/tendermint/blockchain"
+	"github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
 )
 
 const (
@@ -464,7 +464,7 @@ func (r *BlockchainReactor) Stop() error {
 
 // Receive implements Reactor by handling different message types.
 // XXX: do not call any methods that can block or incur heavy processing.
-// https://github.com/tendermint/tendermint/issues/2888
+// https://github.com/klyed/tendermint/issues/2888
 func (r *BlockchainReactor) Receive(chID byte, src p2p.Peer, msgBytes []byte) {
 	logger := r.logger.With("src", src.ID(), "chID", chID)
 

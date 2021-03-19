@@ -3,10 +3,10 @@ package v0
 import (
 	"sort"
 
-	cfg "github.com/tendermint/tendermint/config"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cfg "github.com/klyed/tendermint/config"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
+	tmtime "github.com/klyed/tendermint/types/time"
 )
 
 func randGenesisDoc(

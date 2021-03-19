@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/crypto/ed25519"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/p2p"
 )
 
 // Network sets up an in-memory network that can be used for high-level P2P

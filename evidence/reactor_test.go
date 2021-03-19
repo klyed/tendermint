@@ -14,16 +14,16 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/evidence"
-	"github.com/tendermint/tendermint/evidence/mocks"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/p2ptest"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/crypto/tmhash"
+	"github.com/klyed/tendermint/evidence"
+	"github.com/klyed/tendermint/evidence/mocks"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/p2p/p2ptest"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
 )
 
 var (

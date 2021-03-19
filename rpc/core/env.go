@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"time"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/consensus"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/consensus"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/libs/log"
+	mempl "github.com/klyed/tendermint/mempool"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/proxy"
+	ctypes "github.com/klyed/tendermint/rpc/core/types"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/state/txindex"
+	"github.com/klyed/tendermint/types"
 )
 
 const (

@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	ssproto "github.com/tendermint/tendermint/proto/tendermint/statesync"
-	proxymocks "github.com/tendermint/tendermint/proxy/mocks"
-	"github.com/tendermint/tendermint/statesync/mocks"
+	abci "github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/p2p"
+	ssproto "github.com/klyed/tendermint/proto/tendermint/statesync"
+	proxymocks "github.com/klyed/tendermint/proxy/mocks"
+	"github.com/klyed/tendermint/statesync/mocks"
 )
 
 type reactorTestSuite struct {

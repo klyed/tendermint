@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
-	"github.com/tendermint/tendermint/types"
+	e2e "github.com/klyed/tendermint/test/e2e/pkg"
+	"github.com/klyed/tendermint/types"
 )
 
 var (
@@ -28,7 +28,7 @@ var (
 
 	// The following specify randomly chosen values for testnet nodes.
 	nodeDatabases = uniformChoice{"goleveldb", "cleveldb", "rocksdb", "boltdb", "badgerdb"}
-	// FIXME: grpc disabled due to https://github.com/tendermint/tendermint/issues/5439
+	// FIXME: grpc disabled due to https://github.com/klyed/tendermint/issues/5439
 	nodeABCIProtocols    = uniformChoice{"unix", "tcp", "builtin"} // "grpc"
 	nodePrivvalProtocols = uniformChoice{"file", "unix", "tcp", "grpc"}
 	// FIXME: v2 disabled due to flake
@@ -46,7 +46,7 @@ var (
 	nodeMisbehaviors = weightedChoice{
 		// FIXME: evidence disabled due to node panicing when not
 		// having sufficient block history to process evidence.
-		// https://github.com/tendermint/tendermint/issues/5617
+		// https://github.com/klyed/tendermint/issues/5617
 		// misbehaviorOption{"double-prevote"}: 1,
 		misbehaviorOption{}: 9,
 	}

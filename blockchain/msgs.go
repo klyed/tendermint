@@ -1,8 +1,8 @@
 package blockchain
 
 import (
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/types"
+	bcproto "github.com/klyed/tendermint/proto/tendermint/blockchain"
+	"github.com/klyed/tendermint/types"
 )
 
 const (

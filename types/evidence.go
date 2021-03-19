@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/crypto/merkle"
+	"github.com/klyed/tendermint/crypto/tmhash"
+	tmjson "github.com/klyed/tendermint/libs/json"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
 )
 
 // Evidence represents any provable malicious activity by a validator.

@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/types"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	abcicli "github.com/klyed/tendermint/abci/client"
+	"github.com/klyed/tendermint/abci/types"
+	tmrand "github.com/klyed/tendermint/libs/rand"
 )
 
 var ctx = context.Background()

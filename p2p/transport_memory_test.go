@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/p2p"
 )
 
 // Transports are mainly tested by common tests in transport_test.go, we

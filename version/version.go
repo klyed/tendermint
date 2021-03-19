@@ -1,6 +1,6 @@
 package version
 
-import tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
+import tmversion "github.com/klyed/tendermint/proto/tendermint/version"
 
 var (
 	// TMCoreSemVer is the current version of Tendermint Core.

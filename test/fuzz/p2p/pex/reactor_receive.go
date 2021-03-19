@@ -4,13 +4,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/pex"
-	"github.com/tendermint/tendermint/version"
+	"github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/crypto/ed25519"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/libs/service"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/p2p/pex"
+	"github.com/klyed/tendermint/version"
 )
 
 var (

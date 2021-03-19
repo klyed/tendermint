@@ -14,24 +14,24 @@ import (
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmflags "github.com/tendermint/tendermint/libs/cli/flags"
-	"github.com/tendermint/tendermint/libs/log"
-	tmnet "github.com/tendermint/tendermint/libs/net"
-	"github.com/tendermint/tendermint/light"
-	lproxy "github.com/tendermint/tendermint/light/proxy"
-	lrpc "github.com/tendermint/tendermint/light/rpc"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	"github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/privval"
-	grpcprivval "github.com/tendermint/tendermint/privval/grpc"
-	privvalproto "github.com/tendermint/tendermint/proto/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	rpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
-	e2e "github.com/tendermint/tendermint/test/e2e/pkg"
+	"github.com/klyed/tendermint/abci/server"
+	"github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/crypto/ed25519"
+	tmflags "github.com/klyed/tendermint/libs/cli/flags"
+	"github.com/klyed/tendermint/libs/log"
+	tmnet "github.com/klyed/tendermint/libs/net"
+	"github.com/klyed/tendermint/light"
+	lproxy "github.com/klyed/tendermint/light/proxy"
+	lrpc "github.com/klyed/tendermint/light/rpc"
+	dbs "github.com/klyed/tendermint/light/store/db"
+	"github.com/klyed/tendermint/node"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/privval"
+	grpcprivval "github.com/klyed/tendermint/privval/grpc"
+	privvalproto "github.com/klyed/tendermint/proto/tendermint/privval"
+	"github.com/klyed/tendermint/proxy"
+	rpcserver "github.com/klyed/tendermint/rpc/jsonrpc/server"
+	e2e "github.com/klyed/tendermint/test/e2e/pkg"
 )
 
 var logger = log.NewTMLogger(log.NewSyncWriter(os.Stdout))
@@ -207,7 +207,7 @@ func startLightNode(cfg *Config) error {
 	rpccfg.MaxOpenConnections = tmcfg.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/tendermint/tendermint/issues/3435
+	// See https://github.com/klyed/tendermint/issues/3435
 	if rpccfg.WriteTimeout <= tmcfg.RPC.TimeoutBroadcastTxCommit {
 		rpccfg.WriteTimeout = tmcfg.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}

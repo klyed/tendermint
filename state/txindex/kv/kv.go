@@ -12,10 +12,10 @@ import (
 	"github.com/google/orderedcode"
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/libs/pubsub/query"
+	"github.com/klyed/tendermint/state/txindex"
+	"github.com/klyed/tendermint/types"
 )
 
 var _ txindex.TxIndexer = (*TxIndex)(nil)

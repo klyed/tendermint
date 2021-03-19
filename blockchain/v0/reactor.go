@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	bc "github.com/tendermint/tendermint/blockchain"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	bc "github.com/klyed/tendermint/blockchain"
+	"github.com/klyed/tendermint/libs/log"
+	"github.com/klyed/tendermint/libs/service"
+	"github.com/klyed/tendermint/p2p"
+	bcproto "github.com/klyed/tendermint/proto/tendermint/blockchain"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/store"
+	"github.com/klyed/tendermint/types"
 )
 
 var (
@@ -24,7 +24,7 @@ var (
 	//
 	//
 	// TODO: Remove once p2p refactor is complete.
-	// ref: https://github.com/tendermint/tendermint/issues/5670
+	// ref: https://github.com/klyed/tendermint/issues/5670
 	ChannelShims = map[p2p.ChannelID]*p2p.ChannelDescriptorShim{
 		BlockchainChannel: {
 			MsgType: new(bcproto.Message),

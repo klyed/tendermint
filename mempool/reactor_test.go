@@ -7,16 +7,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/p2ptest"
-	protomem "github.com/tendermint/tendermint/proto/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/abci/example/kvstore"
+	abci "github.com/klyed/tendermint/abci/types"
+	cfg "github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/libs/log"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	"github.com/klyed/tendermint/p2p"
+	"github.com/klyed/tendermint/p2p/p2ptest"
+	protomem "github.com/klyed/tendermint/proto/tendermint/mempool"
+	"github.com/klyed/tendermint/proxy"
+	"github.com/klyed/tendermint/types"
 )
 
 type reactorTestSuite struct {
@@ -180,7 +180,7 @@ func TestReactorBroadcastTxs(t *testing.T) {
 	rts.assertMempoolChannelsDrained(t)
 }
 
-// regression test for https://github.com/tendermint/tendermint/issues/5408
+// regression test for https://github.com/klyed/tendermint/issues/5408
 func TestReactorConcurrency(t *testing.T) {
 	numTxs := 5
 	numNodes := 2

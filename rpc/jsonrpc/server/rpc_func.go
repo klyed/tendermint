@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/klyed/tendermint/libs/log"
 )
 
 // RegisterRPCFuncs adds a route for each function in the funcMap, as well as

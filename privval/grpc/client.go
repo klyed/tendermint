@@ -6,12 +6,12 @@ import (
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	"github.com/tendermint/tendermint/crypto"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	"github.com/tendermint/tendermint/libs/log"
-	privvalproto "github.com/tendermint/tendermint/proto/tendermint/privval"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/crypto"
+	cryptoenc "github.com/klyed/tendermint/crypto/encoding"
+	"github.com/klyed/tendermint/libs/log"
+	privvalproto "github.com/klyed/tendermint/proto/tendermint/privval"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 // SignerClient implements PrivValidator.

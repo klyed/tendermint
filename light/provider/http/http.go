@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tendermint/tendermint/light/provider"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/light/provider"
+	rpcclient "github.com/klyed/tendermint/rpc/client"
+	rpchttp "github.com/klyed/tendermint/rpc/client/http"
+	ctypes "github.com/klyed/tendermint/rpc/core/types"
+	rpctypes "github.com/klyed/tendermint/rpc/jsonrpc/types"
+	"github.com/klyed/tendermint/types"
 )
 
 var defaultOptions = Options{

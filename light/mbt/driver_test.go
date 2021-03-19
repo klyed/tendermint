@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	"github.com/tendermint/tendermint/light"
-	"github.com/tendermint/tendermint/types"
+	tmjson "github.com/klyed/tendermint/libs/json"
+	"github.com/klyed/tendermint/light"
+	"github.com/klyed/tendermint/types"
 )
 
 const jsonDir = "./json"

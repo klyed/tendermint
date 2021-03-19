@@ -10,18 +10,18 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/evidence"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	abcicli "github.com/klyed/tendermint/abci/client"
+	abci "github.com/klyed/tendermint/abci/types"
+	"github.com/klyed/tendermint/evidence"
+	"github.com/klyed/tendermint/libs/log"
+	tmsync "github.com/klyed/tendermint/libs/sync"
+	mempl "github.com/klyed/tendermint/mempool"
+	"github.com/klyed/tendermint/p2p"
+	tmcons "github.com/klyed/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/store"
+	"github.com/klyed/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 
@@ -275,7 +275,7 @@ func TestByzantinePrevoteEquivocation(t *testing.T) {
 // B sees a commit, A doesn't.
 // Heal partition and ensure A sees the commit
 func TestByzantineConflictingProposalsWithPartition(t *testing.T) {
-	// TODO: https://github.com/tendermint/tendermint/issues/6092
+	// TODO: https://github.com/klyed/tendermint/issues/6092
 	t.SkipNow()
 
 	// n := 4

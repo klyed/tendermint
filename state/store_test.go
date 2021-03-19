@@ -10,14 +10,14 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/klyed/tendermint/abci/types"
+	cfg "github.com/klyed/tendermint/config"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/crypto/ed25519"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	tmstate "github.com/klyed/tendermint/proto/tendermint/state"
+	sm "github.com/klyed/tendermint/state"
+	"github.com/klyed/tendermint/types"
 )
 
 const (

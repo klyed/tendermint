@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmgrpc "github.com/tendermint/tendermint/privval/grpc"
-	privvalproto "github.com/tendermint/tendermint/proto/tendermint/privval"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/klyed/tendermint/crypto"
+	"github.com/klyed/tendermint/crypto/tmhash"
+	"github.com/klyed/tendermint/libs/log"
+	tmrand "github.com/klyed/tendermint/libs/rand"
+	tmgrpc "github.com/klyed/tendermint/privval/grpc"
+	privvalproto "github.com/klyed/tendermint/proto/tendermint/privval"
+	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
+	"github.com/klyed/tendermint/types"
 )
 
 const chainID = "chain-id"
