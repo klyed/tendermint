@@ -3,7 +3,7 @@
 PACKAGES=$(shell go list ./...)
 BUILDDIR ?= $(CURDIR)/build
 
-BUILD_TAGS?=tendermint
+BUILD_TAGS?=klyed
 
 # If building a release, please checkout the version tag to get the correct version setting
 ifneq ($(shell git symbolic-ref -q --short HEAD),)
@@ -131,11 +131,11 @@ generate_test_cert:
 	# generate server cerificate
 	@certstrap request-cert -cn server -ip 127.0.0.1
 	# self-sign server cerificate with rootCA
-	@certstrap sign server --CA "root CA" 
+	@certstrap sign server --CA "root CA"
 	# generate client cerificate
 	@certstrap request-cert -cn client -ip 127.0.0.1
 	# self-sign client cerificate with rootCA
-	@certstrap sign client --CA "root CA" 
+	@certstrap sign client --CA "root CA"
 .PHONY: generate_test_cert
 
 ###############################################################################
