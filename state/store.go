@@ -7,7 +7,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/orderedcode"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	abci "github.com/klyed/tendermint/abci/types"
 	tmmath "github.com/klyed/tendermint/libs/math"
@@ -99,7 +99,7 @@ type Store interface {
 	PruneStates(int64) error
 }
 
-// dbStore wraps a db (github.com/tendermint/tm-db)
+// dbStore wraps a db (github.com/klyed/tm-db)
 type dbStore struct {
 	db dbm.DB
 }

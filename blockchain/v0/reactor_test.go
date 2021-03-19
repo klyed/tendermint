@@ -19,7 +19,7 @@ import (
 	sm "github.com/klyed/tendermint/state"
 	"github.com/klyed/tendermint/store"
 	"github.com/klyed/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 )
 
 var rng = rand.New(rand.NewSource(time.Now().UnixNano()))

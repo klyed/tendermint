@@ -28,7 +28,7 @@ import (
 	statemocks "github.com/klyed/tendermint/state/mocks"
 	"github.com/klyed/tendermint/store"
 	"github.com/klyed/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 )
 
 var (

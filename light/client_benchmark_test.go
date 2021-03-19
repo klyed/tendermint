@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/libs/log"
 	"github.com/klyed/tendermint/light"

@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/abci/example/code"
 	abci "github.com/klyed/tendermint/abci/types"

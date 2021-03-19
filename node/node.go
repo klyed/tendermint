@@ -16,7 +16,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/rs/cors"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	abci "github.com/klyed/tendermint/abci/types"
 	bcv0 "github.com/klyed/tendermint/blockchain/v0"

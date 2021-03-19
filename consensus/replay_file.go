@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	cfg "github.com/klyed/tendermint/config"
 	"github.com/klyed/tendermint/libs/log"

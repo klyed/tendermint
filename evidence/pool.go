@@ -12,7 +12,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/google/orderedcode"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	clist "github.com/klyed/tendermint/libs/clist"
 	"github.com/klyed/tendermint/libs/log"

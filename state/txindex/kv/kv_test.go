@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/klyed/tm-db"
 
 	abci "github.com/klyed/tendermint/abci/types"
 	"github.com/klyed/tendermint/libs/pubsub/query"

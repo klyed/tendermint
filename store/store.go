@@ -7,7 +7,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/orderedcode"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	tmproto "github.com/klyed/tendermint/proto/tendermint/types"
 	"github.com/klyed/tendermint/types"

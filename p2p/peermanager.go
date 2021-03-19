@@ -12,7 +12,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/google/orderedcode"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	tmsync "github.com/klyed/tendermint/libs/sync"
 	p2pproto "github.com/klyed/tendermint/proto/tendermint/p2p"

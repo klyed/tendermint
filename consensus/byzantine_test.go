@@ -22,7 +22,7 @@ import (
 	sm "github.com/klyed/tendermint/state"
 	"github.com/klyed/tendermint/store"
 	"github.com/klyed/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 )
 
 // Byzantine node sends two different prevotes (nil and blockID) to the same

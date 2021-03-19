@@ -17,7 +17,7 @@ import (
 
 	"path"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	abcicli "github.com/klyed/tendermint/abci/client"
 	"github.com/klyed/tendermint/abci/example/counter"

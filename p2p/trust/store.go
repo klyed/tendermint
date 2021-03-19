@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/libs/service"
 	tmsync "github.com/klyed/tendermint/libs/sync"

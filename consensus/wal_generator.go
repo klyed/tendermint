@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	db "github.com/tendermint/tm-db"
+	db "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/abci/example/kvstore"
 	cfg "github.com/klyed/tendermint/config"

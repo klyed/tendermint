@@ -14,7 +14,7 @@ import (
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/crypto"
 	"github.com/klyed/tendermint/libs/log"

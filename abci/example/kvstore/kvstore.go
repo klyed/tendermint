@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	"github.com/klyed/tendermint/abci/example/code"
 	"github.com/klyed/tendermint/abci/types"

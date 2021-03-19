@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/google/orderedcode"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/klyed/tm-db"
 
 	tmsync "github.com/klyed/tendermint/libs/sync"
 	"github.com/klyed/tendermint/light/store"
