@@ -1,7 +1,5 @@
 module github.com/klyed/tendermint
 
-replace github.com/klyed/tendermint@v0.34.8 => github.com/klyed/tendermint latest
-
 go 1.15
 
 require (
